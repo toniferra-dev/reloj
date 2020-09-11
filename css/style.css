@@ -17,9 +17,9 @@
 
 /* Crear zona negra */
 body{
-    font-family: arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     height: 100vh;
-    background-color: rgb(21, 21, 21);
+    background-color: #00AAA4;
 
     display: flex;
     justify-content: center;
@@ -33,17 +33,21 @@ main{
 
 /* cuadrados */
 .cuadrado{
-    width: 35vw;
+   
     padding: 1rem;
-    background-color: black;
-    border-radius: 10px;
+    background:linear-gradient(to right top, #4d3a4d, #515273, #3c6f95, #008da7, #00aaa4);;
+    border-radius: 30px;
+    border: 10px groove white;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 .left, .right, .dospuntos{
     color: white;
-    font-size: 3.5rem;
+    font-size: 6rem;
+    margin:10px;
 }
 .dospuntos{
     display: flex;
@@ -55,8 +59,12 @@ main{
 .roto{
     width: 100%;
     height: 5px;
-    background-color: rgb(21, 21, 21);
+    background-color: #00AAA4;
     position: absolute;
-    top: calc(50% - 2.5px);
+    top: calc(51% );
     left:0;
+}
+
+.cuadrado:hover{
+    background:#4D3A4D; 
 }
