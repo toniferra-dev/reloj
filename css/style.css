@@ -27,7 +27,6 @@ body
     font-family: "robotoregular";
     height: 100vh;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    
 
     display: flex;
     justify-content: center;
@@ -44,17 +43,22 @@ main{
     width: 40vw;
     padding: 2rem;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .left, .right, .dospuntos{
-    background: linear-gradient(45deg,  #f6e6b4 0%,#ed9017 100%);
     font-size: 6rem;
 
     background-image: radial-gradient(circle, #171e48, #383166, #5c4483, #8257a0, #ac6bbc, #cd6bb5, #e96daa, #ff739c, #ff7c63, #fd9c18, #c2c100, #49e01f);
-    color: white;
+    color: black;
+    font-style: oblique;
+    font-variant: 10px;
+    background-size: 50px;
+    background-position-x: 34px;
+    background-position-y: 88px;
+
 }
 .dospuntos{
     display: flex;
