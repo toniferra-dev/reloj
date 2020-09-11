@@ -37,9 +37,13 @@ main{
 /* cuadrados */
 .cuadrado{
     width: 35vw;
+    height: 35vw;
     padding: 1rem;
-    background-color: #0E006A;
-    border-radius: 10px;
+    background: radial-gradient(circle, #03ea11,
+     #11e523, #1be02e, #23da37, #29d53e,
+      #35ca3e, #3cc03f, #42b53f, #47a33b,
+       #499137, #488034, #466f32);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
