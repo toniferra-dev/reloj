@@ -27,6 +27,7 @@ body
     font-family: "robotoregular";
     height: 100vh;
     background-image: linear-gradient(to left bottom, #e12d07, #cd6e00, #b19700, #91b732, #6ed176);
+    
 
     display: flex;
     justify-content: center;
@@ -42,20 +43,24 @@ main{
 .cuadrado{
     width: 35vw;
     padding: 1rem;
-    background-color: black;
+    background-color: blue;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .left, .right, .dospuntos{
-    color: white;
-    font-size: 3.5rem;
+    background: linear-gradient(45deg,  #f6e6b4 0%,#ed9017 100%);
+    font-size: 6rem;
+
+    border: 5px solid blueviolet;
+
 }
 .dospuntos{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 /* Roto */
