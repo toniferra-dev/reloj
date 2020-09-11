@@ -28,9 +28,10 @@
 
 body {
     font-family: "Adca", arial, sans-serif;
-    font-size: 56px;
+    font-size: 100em;
+    text-shadow: inset 9px 9px 12px black;
     height: 100vh;
-    background-color: rgb(21, 21, 21);
+    background-color: #343949;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +46,10 @@ main {
 /* CUADRADOS */
 
 .cuadrado {
-    width: 35vw;
+    width: 10vw;
+    height: 10vh;
     padding: 1rem;
-    background-color: black;
+    background-color: #508CA4;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -57,7 +59,7 @@ main {
 .left,
 .right,
 .dospuntos {
-    color: white;
+    color: #F5F9E9;
     font-size: 3.5rem;
 }
 
@@ -65,17 +67,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 
 /* Roto */
 
-.roto {
+
+/* .roto {
     width: 100%;
     height: 10px;
     background-color: rgb(21, 21, 21);
     position: absolute;
     top: calc(50% - 2.5px);
     left: 0;
-}
+} */
