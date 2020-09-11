@@ -53,7 +53,8 @@ main{
 
     background-image: radial-gradient(circle, #171e48, #383166, #5c4483, #8257a0, #ac6bbc, #cd6bb5, #e96daa, #ff739c, #ff7c63, #fd9c18, #c2c100, #49e01f);
     color: black;
-    font-style: oblique;
+    font-weight: bolder;
+
     font-variant: 10px;
     background-size: 50px;
     background-position-x: 34px;
