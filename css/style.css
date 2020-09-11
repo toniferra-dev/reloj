@@ -45,6 +45,7 @@ main{
 .left, .right, .dospuntos{
     color: white;
     font-size: 3.5rem;
+    position: relative;
 }
 .dospuntos{
     display: flex;
