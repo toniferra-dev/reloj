@@ -17,9 +17,9 @@
 
 /* Crear zona negra */
 body{
-    font-family: arial, sans-serif;
+    font-family: helvetica;
     height: 100vh;
-    background-color: rgb(21, 21, 21);
+    background-color: #0f4c81;
 
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ main{
 .cuadrado{
     width: 35vw;
     padding: 1rem;
-    background-color: black;
+    background-color: #f6096c;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -43,19 +43,21 @@ main{
 }
 .left, .right, .dospuntos{
     color: white;
-    font-size: 3.5rem;
+    font-size: 7rem;
+    
 }
 .dospuntos{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f6096c;
 }
 
 /* Roto */
 .roto{
     width: 100%;
     height: 5px;
-    background-color: rgb(21, 21, 21);
+    background-color: #0f4c81;
     position: absolute;
     top: calc(50% - 2.5px);
     left:0;
