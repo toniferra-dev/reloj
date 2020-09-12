@@ -28,10 +28,11 @@
 
 body {
     font-family: "Adca", arial, sans-serif;
-    font-size: 100em;
+    font-size: 72px;
     text-shadow: inset 9px 9px 12px black;
     height: 100vh;
-    background-color: #343949;
+    /* background-color: #343949; */
+    background-color: #508CA4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,20 +48,25 @@ main {
 
 .cuadrado {
     width: 10vw;
-    height: 10vh;
+    height: 8vh;
     padding: 1rem;
     background-color: #508CA4;
-    border-radius: 10px;
+    box-shadow: 3px 3px 8px #317185, -3px -3px 8px #5fa7c3;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 80px;
+    max-height: 80*2/3px;
+    line-height: 1;
+    padding-bottom: 5px;
 }
 
 .left,
 .right,
 .dospuntos {
-    color: #F5F9E9;
-    font-size: 3.5rem;
+    color: #1A1423;
+    /*     font-size: 3.5rem;    */
 }
 
 .dospuntos {
@@ -68,6 +74,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin-top: -15px;
 }
 
 
